@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terragrunt-mock
+  description: Repositório para recursos de infra
+  annotations:
+    github.com/project-slug: sandesvitor-org/infra-mock
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/backstage
