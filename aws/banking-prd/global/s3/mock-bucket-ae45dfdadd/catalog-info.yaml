@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mock-bucket-ae45dfdadd
+  description: Bucket S3 mock-bucket-ae45dfdadd criado na conta banking-prd.
+  annotations:
+    backstage.io/source-location: //aws//global/s3/"
+spec:
+  type: service
+  lifecycle: production
+  owner: 
