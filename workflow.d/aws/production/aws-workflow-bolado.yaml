@@ -1,0 +1,20 @@
+repositories:
+  - dlpco/aloha
+  - pagarme/hello
+  envs:
+  - name: TF_VARS_hello
+    value: 
+  - name: TF_VARS_world
+    value: 
+  
+
+init_extra_args:
+  - -reconfigure
+  - -backend=$TF_VARS_hello
+  
+
+workflow: aws-workflow-bolado
+
+rolearn: arn:aws:iam::274208798951:role/atlantis-roles-banking
+
+
