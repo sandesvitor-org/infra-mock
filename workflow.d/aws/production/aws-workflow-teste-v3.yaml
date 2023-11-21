@@ -1,0 +1,19 @@
+repositories:
+  - dlpco/aloha- stone-payments/oculus-api
+
+workflow: aws-workflow-teste-v3
+
+envs:
+  - name: TF_VARS_hello
+    value: 
+  - name: TF_VARS_world
+    value: 
+  
+
+init_extra_args:
+  - -reconfigure
+  - -backend=$TF_VARS_hello
+  
+
+rolearn: arn:aws:iam::274208798951:role/atlantis-roles-banking
+
