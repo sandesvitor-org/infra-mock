@@ -1,0 +1,14 @@
+repositories: ["dlpco/aloha","stone-payments/oculus-api"]
+
+workflow: azure-workflow-teste-v3
+
+envs:
+  - name: TF_VARS_hello
+    value: hello
+  - name: TF_VARS_world
+    value: world
+  
+
+init_extra_args: ["-reconfigure","-backend=$TF_VARS_hello"]
+
+azure_tenant: stone
