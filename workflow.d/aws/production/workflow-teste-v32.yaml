@@ -1,0 +1,13 @@
+repositories: ["dlpco/cobaia-devops"]
+
+
+
+
+workflow: "aws-workflow-teste-v32-"
+
+
+
+
+
+rolearn: arn:aws:iam::274208798951:role/atlantis-roles-banking
+
